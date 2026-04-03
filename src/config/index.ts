@@ -28,7 +28,6 @@ export const SITE_CONTENT: SiteContent = {
     email: "gaganchandra02@gmail.com",
   },
 
-  // ✅ FIX: keep this to prevent crash
   experience: [
     {
       company: "Pranveer Singh Institute of Technology",
@@ -37,7 +36,7 @@ export const SITE_CONTENT: SiteContent = {
       endDate: "Present",
       summary: [
         "Pursuing B.Tech in Computer Science Engineering (AI), CGPA: 70.09%",
-        "Qualified GATE 2026 in CS & IT (316) and Data Science & AI (285)",
+        "Qualified GATE 2026 in CS & IT and Data Science & AI ",
         "Solved 520+ DSA problems across LeetCode and HackerRank",
       ],
     },
@@ -48,8 +47,8 @@ export const SITE_CONTENT: SiteContent = {
       name: "Shortly — URL Shortener with Analytics Dashboard",
       summary:
         "Built a full-stack URL shortener with custom aliases, REST API support, and click-tracking analytics. Designed clean backend architecture with validation, error handling, and frontend integration using vanilla JavaScript.",
-      linkPreview: "https://gagannchandra.vercel.app/",
-      linkSource: "https://github.com/gagannchandra/url-shortener",
+      linkPreview: "https://gagannchandra.pythonanywhere.com/",
+      linkSource: "https://github.com/gagannchandra/shortly-url-shortener",
       image: "/project-shortly.png",
     },
     {
