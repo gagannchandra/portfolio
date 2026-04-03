@@ -28,11 +28,26 @@ export const SITE_CONTENT: SiteContent = {
     email: "gaganchandra02@gmail.com",
   },
 
+  // ✅ FIX: keep this to prevent crash
+  experience: [
+    {
+      company: "Pranveer Singh Institute of Technology",
+      position: "B.Tech — Computer Science Engineering (AI)",
+      startDate: "Aug 2022",
+      endDate: "Present",
+      summary: [
+        "Pursuing B.Tech in Computer Science Engineering (AI), CGPA: 70.09%",
+        "Qualified GATE 2026 in CS & IT (316) and Data Science & AI (285)",
+        "Solved 520+ DSA problems across LeetCode and HackerRank",
+      ],
+    },
+  ],
+
   projects: [
     {
       name: "Shortly — URL Shortener with Analytics Dashboard",
       summary:
-        "Built a full-stack URL shortener supporting custom aliases, REST API access, and click-tracking analytics. Designed clean backend architecture with validation and error handling, and integrated a responsive frontend using vanilla JavaScript.",
+        "Built a full-stack URL shortener with custom aliases, REST API support, and click-tracking analytics. Designed clean backend architecture with validation, error handling, and frontend integration using vanilla JavaScript.",
       linkPreview: "https://gagannchandra.vercel.app/",
       linkSource: "https://github.com/gagannchandra/url-shortener",
       image: "/project-shortly.png",
@@ -40,7 +55,7 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "Sentiment Analysis System",
       summary:
-        "Developed an end-to-end sentiment analysis system using TF-IDF and Logistic Regression, exposed via a Flask API with a Streamlit interface. Containerized with Docker and deployed on Render for real-time inference.",
+        "Developed an end-to-end sentiment analysis system using TF-IDF and Logistic Regression, exposed via a Flask API and Streamlit UI. Containerized with Docker and deployed on Render for real-time inference.",
       linkPreview: "",
       linkSource: "https://github.com/gagannchandra/sentiment-analysis",
       image: "/project-sentiment.png",
@@ -49,7 +64,7 @@ export const SITE_CONTENT: SiteContent = {
 
   about: {
     description:
-      "Hi, I'm Gagan Chandra, a final-year B.Tech CSE (AI) student focused on backend development and system design. I enjoy building API-driven applications with clean architecture and real-world usability. My work includes developing REST APIs, integrating frontend interfaces, and deploying applications using modern tools. Alongside development, I have a strong foundation in Data Structures and Algorithms with 520+ problems solved and a GATE 2026 qualification in both CS & IT and Data Science & AI.",
+      "Hi, I'm Gagan Chandra, a backend-focused software engineer and final-year B.Tech CSE (AI) student. I build API-driven applications with clean architecture, focusing on reliability and real-world usability. My work includes REST API development, frontend integration, and deployment using modern tools. I also have a strong foundation in Data Structures and Algorithms with 520+ problems solved and GATE 2026 qualification in both CS & IT and Data Science & AI.",
     image: "/gagan-big.jpg",
   },
 };
