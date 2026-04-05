@@ -46,7 +46,7 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "Shortly — URL Shortener with Analytics Dashboard",
       summary:
-        "Built a full-stack URL shortener with custom aliases, REST API support, and click-tracking analytics. Designed clean backend architecture with validation, error handling, and frontend integration using vanilla JavaScript.",
+        "Built a full-stack URL shortener with custom aliases, REST APIs, and click analytics, featuring clean backend design, validation, and vanilla JS frontend integration.",
       linkPreview: "https://gagannchandra.pythonanywhere.com/",
       linkSource: "https://github.com/gagannchandra/shortly-url-shortener",
       image: "/project-shortly.png",
