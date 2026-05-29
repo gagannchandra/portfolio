@@ -1,0 +1,45 @@
+
+> gagannchandra-portfolio@0.1.0 build
+> next lint && next build
+
+✔ No ESLint warnings or errors
+  ▲ Next.js 14.2.35
+  - Environments: .env
+
+   Creating an optimized production build ...
+ ⚠ Compiled with warnings
+
+./node_modules/sanity/node_modules/framer-motion/dist/cjs/index-6W16WHlG.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+./node_modules/sanity/node_modules/framer-motion/dist/cjs/index-6W16WHlG.js
+./node_modules/sanity/node_modules/framer-motion/dist/cjs/index.js
+./node_modules/sanity/lib/index.js
+./node_modules/@sanity/code-input/lib/_chunks/index-0LQQ9tED.cjs
+./node_modules/@sanity/code-input/lib/index.cjs
+./node_modules/@sanity/code-input/lib/index.cjs.js
+./sanity.config.ts
+./app/studio/[[...index]]/page.tsx
+
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+TypeError: Cannot read properties of undefined (reading 'class-name')
+    at t (/home/gagan-chandra/code/portfolio template/.next/server/chunks/3135.js:1:25086)
+    at eo.register (/home/gagan-chandra/code/portfolio template/.next/server/chunks/3135.js:7:53254)
+    at eG (/home/gagan-chandra/code/portfolio template/.next/server/chunks/3135.js:10:2943)
+    at 22295 (/home/gagan-chandra/code/portfolio template/.next/server/chunks/6319.js:1:2761)
+    at t (/home/gagan-chandra/code/portfolio template/.next/server/webpack-runtime.js:1:143)
+    at 91053 (/home/gagan-chandra/code/portfolio template/.next/server/app/projects/[project]/page.js:1:4004)
+    at t (/home/gagan-chandra/code/portfolio template/.next/server/webpack-runtime.js:1:143)
+    at 94292 (/home/gagan-chandra/code/portfolio template/.next/server/app/projects/[project]/page.js:1:931)
+    at t (/home/gagan-chandra/code/portfolio template/.next/server/webpack-runtime.js:1:143)
+    at t (/home/gagan-chandra/code/portfolio template/.next/server/app/projects/[project]/page.js:1:6502)
+
+> Build error occurred
+Error: Failed to collect page data for /projects/[project]
+    at /home/gagan-chandra/code/portfolio template/node_modules/next/dist/build/utils.js:1269:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {
+  type: 'Error'
+}
