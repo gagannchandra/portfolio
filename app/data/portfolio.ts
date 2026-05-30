@@ -177,7 +177,14 @@ export const projects = [
   },
 ];
 
-export const achievements = [
+export type Achievement = {
+  title: string;
+  value: string;
+  description: string;
+  tag?: string;
+};
+
+export const achievements: Achievement[] = [
   {
     title: "DSA Problems Solved",
     value: "520+",
