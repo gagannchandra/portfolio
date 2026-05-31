@@ -31,12 +31,7 @@ const links = [
     href: siteConfig.linkedin,
     icon: BiLogoLinkedinSquare,
   },
-  {
-    label: "Portfolio",
-    value: "gagannchandra.vercel.app",
-    href: siteConfig.portfolio,
-    icon: BiLinkExternal,
-  },
+
 ];
 
 export default function ContactSection() {

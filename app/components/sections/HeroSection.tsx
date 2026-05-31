@@ -34,14 +34,14 @@ export default function HeroSection() {
             >
               View Projects
             </Link>
-            <Link
+            <a
               href={siteConfig.resumeUrl}
               download
               className="inline-flex items-center gap-2 rounded-md dark:bg-primary-bg bg-secondary-bg border dark:border-zinc-800 border-zinc-200 px-4 py-2 text-sm font-semibold dark:text-white text-zinc-800 dark:hover:border-primary-color/50 hover:border-zinc-300 duration-300"
             >
               <BiSolidDownload className="text-lg" />
               Download Resume
-            </Link>
+            </a>
             <Link
               href="#contact"
               className="inline-flex items-center gap-2 rounded-md dark:bg-primary-bg bg-secondary-bg border dark:border-zinc-800 border-zinc-200 px-4 py-2 text-sm font-semibold dark:text-white text-zinc-800 dark:hover:border-primary-color/50 hover:border-zinc-300 duration-300"

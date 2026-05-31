@@ -27,11 +27,5 @@ export const socialLinks = [
     icon: BiEnvelope,
     status: "social",
   },
-  {
-    id: 4,
-    name: "Portfolio",
-    url: "https://gagannchandra.vercel.app",
-    icon: BiLinkExternal,
-    status: "social",
-  },
+
 ];
