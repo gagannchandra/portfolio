@@ -59,6 +59,9 @@ export const skillCategories = [
       "Node.js",
       "Express.js",
       "REST APIs",
+      "JWT Auth",
+      "SQLAlchemy",
+      "Pydantic",
     ],
   },
   {
@@ -69,6 +72,7 @@ export const skillCategories = [
       "NumPy",
       "XGBoost",
       "LLM Integration",
+      "Model Deployment",
     ],
   },
   {
@@ -77,20 +81,26 @@ export const skillCategories = [
   },
   {
     title: "Frontend",
-    skills: ["React", "JavaScript", "Tailwind CSS", "HTML", "CSS"],
+    skills: ["React", "JavaScript", "Tailwind CSS", "Vite", "HTML", "CSS"],
   },
   {
     title: "DevOps & Tools",
     skills: [
       "Docker",
       "Git",
-      "Linux",
       "GitHub Actions",
       "CI/CD",
-      "Render",
+      "Linux",
+      "Postman",
+      "Pytest",
       "Railway",
+      "Render",
       "Vercel",
     ],
+  },
+  {
+    title: "Languages",
+    skills: ["Python", "JavaScript", "C", "C++", "Java", "SQL"],
   },
 ];
 

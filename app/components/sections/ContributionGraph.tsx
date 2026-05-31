@@ -10,8 +10,8 @@ export default function ContributionGraph() {
 
   return (
     <div className="w-full flex justify-center">
-      <div className="w-fit p-6 rounded-lg dark:bg-primary-bg bg-secondary-bg border dark:border-zinc-800 border-zinc-200">
-        <div className="overflow-x-auto min-w-[280px]">
+      <div className="w-full max-w-full md:w-fit p-6 rounded-lg dark:bg-primary-bg bg-secondary-bg border dark:border-zinc-800 border-zinc-200">
+        <div className="overflow-x-auto">
           <GitHubCalendar
             username="gagannchandra"
             colorScheme="dark"
